@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Interattive</title>
+  <style>
+    .car {
+      display: inline-block;
+      margin: 10px;
+    }
+  </style>
+  <script>
+    function showCarData(modello, anno, targa) {
+      alert("Modello: " + modello + "\nAnno: " + anno + "\nTarga: " + targa);
+    }
+  </script>
+</head>
+<body>
+  <h1>Auto Interattive</h1>
+
+  <a href="#" class="car" onclick="showCarData('Modello 1', '2020', 'ABC123')">
+    <img src="https://i.imgur.com/6iBcOJl.jpg" alt="Modello 1" height="600" width="400">
+  </a>
+
+  <a href="#" class="car" onclick="showCarData('Modello 2', '2018', 'XYZ789')">
+    <img src="https://i.imgur.com/8ss3jhj.jpg" alt="Modello 2" height="600" width="400">
+  </a>
+
+  <!-- Aggiungi altre auto qui -->
+
+</body>
+</html>
